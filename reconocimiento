@@ -1,0 +1,30 @@
+# python_projects
+//reconocimiento y password
+int password ;
+int user1; 
+in
+
+password = 125;
+if password =! 125  System.out.println("adceso denegado");  else  System.out.println("felicitaciones"); }
+
+//hasta aqui el primer ejercicio
+//------------------------------------------------------------------------------`
+// el siguiente ejercicio sera un poco mas especifico
+//tenemos dos usuarios a los cuales le vamos a dar adceso a uno , pero al otro no 
+int password ;
+String user1; 
+String user2; 
+//se tienen las mismas variables
+
+//aqui es deonde cambia el ejercicio
+password = 125;
+user1="margarita"
+user2="disneylandia"
+if password = 125 and user1 = "margarita"  System.out.println("felicitaciones adceso consedido");  else  System.out.println("adceso denegado"); }
+
+//en este ejercio es necesario que se lleve el uso de el 2 condicional 
+if password = 125 and user1 = " "  System.out.println("peligro usuario infiltrado");  }
+if password = 125 and user2 = "disneylandia"  System.out.println("este usuario ya no tiene adceso al sistema"); }
+if password = 125 and user2 = " "  System.out.println("peligro usuario infiltrado");  }
+//---------------------------------------------------------------------------------------------------------------------
+
