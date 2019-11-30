@@ -1,0 +1,18 @@
+Proceso sin_titulo
+Mientras op="S" O op="s" hacer
+Escribir "escribir nombre ";leer nom;
+Escribir "escribir edad ";leer edad;
+si edad >= 18 entonces
+letrero<-"mayor de edad";
+Sino
+si edad < 18 entonces
+letrero<-"MENOR DE EDAD";
+Sino
+letrero<-"error de edad";
+FinSi
+FinSi
+//salidas
+escribir letrero;
+//FIN
+Escribir "continuar<s> o <N>";LEER OP;
+FinMientras
