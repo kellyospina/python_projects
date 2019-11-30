@@ -1,0 +1,43 @@
+Proceso sin_titulo
+//ENTRADAS
+ESCRIBIR "INGRESE NOMBRE D EL CLIENTE  .  .  .  .  .  .  . . . ";LEER NOM;
+Escribir "INGRESE TIPO DE TRANSPORTE <A> AUTOS O <M> MOTOS . . ";LEER TIPO1;
+Escribir "CANTIDAD DE HORAS. . . . . . . . . . . . . . . . . . ";LEER CANT_H
+;
+Escribir "DESEA CHOFER <S> SI O <N> NO . . . . . . . . . . . . ";LEER CHOF1;
+//FIN
+//OPERACIONES 
+VA<-50000;
+VM<-30000;
+PA1<-0.05;
+PA2<-0;
+PM1<-0.03;
+PM2<-0
+SI TIPO1="A" O TIPO1="a" ENTONCES
+TIPO<-"AUTO";VAL_PAR<-VA*CANT_H;
+SI CHOF1="S" O CHOF1="s" Entonces
+VAL_INC<-PA1*VAL_PAR;NETO<-VAL_PAR+VAL_INC;
+Sino
+SI CHOF1="N" O CHOF1="n" Entonces
+VAL_INC<-PA2*VAL_PAR;NETIO<-VAL_PAR+VAL_INC;
+ccc<-ccc+1;
+Sino
+Escribir "error de  chofer de auto";
+val_inc<-0;neto<-0;
+FinSi
+FinSi
+APA<-APA+NETO;
+Sino
+SI TIPO1="m" O TIPO1="M" Entonces
+TIPO<-"MOTO";VAL_PAR<-VM*CANT_H;
+CCM<-CCM+1;
+SI CHOF1="S" O CHOF1="s" Entonces
+VAL_INC<-PA2*VAL_PAR;NETO<-VAL_PAR+VAL_INC;
+ccc<-ccc+1;
+Sino
+Escribir "error de  chofer de auto";
+val_inc<-0;neto<-0;
+FinSi
+FinSi
+//FIN
+FinProceso
